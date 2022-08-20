@@ -11,13 +11,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+    @apply w-full;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 @layer components {
+    .modul-card {
+        @apply shadow-md shadow-gray-900 rounded-lg p-2 my-2 w-full bg-green-600;
+    }
+
     .card {
-        @apply shadow-md shadow-gray-900 rounded-lg bg-slate-500 p-2 my-2 flex justify-between w-full;
+        @apply shadow-md shadow-gray-900 rounded-lg p-2 my-2 w-full bg-slate-700;
     }
 }
