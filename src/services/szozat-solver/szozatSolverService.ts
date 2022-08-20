@@ -15,9 +15,10 @@ export function getRecommendedWords(presentLetters: Array<string>,
                                     notPresentLetters: Array<string>,
                                     regex: Array<string>,
                                     lang: string): Array<string> {
-    const compiledRegex: RegExp = new RegExp(convertInputList(regex).join(""), 'gi')
+    const compiledRegex: RegExp = new RegExp(convertInputList(regex).join(""))
+    console.log(compiledRegex)
     return getFullWordlist(lang)
-        .filter(item => compiledRegex.exec(item) !== null)
+        .filter(item => compiledRegex.test(item))
         .filter(item => convertInputList(presentLetters).every(letter => item.includes(letter)))
         .filter(item => !convertInputList(notPresentLetters).some(letter => item.includes(letter)))
         .map(item => {

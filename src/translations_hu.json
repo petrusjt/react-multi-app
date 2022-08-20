@@ -1,4 +1,13 @@
 {
   "szozatSolver.title": "Szózat solver",
-  "szozatSolver.description": "Egy webalkalmazás, amely segít megfejteni a napi Szózatot és/vagy Wordle-t."
+  "szozatSolver.description": "Egy webalkalmazás, amely segít megfejteni a napi Szózatot és/vagy Wordle-t.",
+
+  "szozatSolver.usableWords": "Lehetséges szavak",
+  "szozatSolver.findUsableWords": "Lehetséges szavak keresése",
+  "szozatSolver.presentLetters": "Szereplő betűk",
+  "szozatSolver.notPresentLetters": "Nem szereplő betűk",
+  "szozatSolver.regex": "Regex",
+  "szozatSolver.presentLettersAdd": "Szereplő betűkhöz hozzáadás",
+  "szozatSolver.notPresentLettersAdd": "Nem szereplő betűkhöz hozzáadás",
+  "szozatSolver.languageSelector": "Nyelv (a szavak listájához)"
 }

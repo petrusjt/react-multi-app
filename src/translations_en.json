@@ -1,4 +1,13 @@
 {
   "szozatSolver.title": "Szózat solver",
-  "szozatSolver.description": "Web application that helps you solve today's Szózat or wordle."
+  "szozatSolver.description": "Web application that helps you solve today's Szózat or wordle.",
+
+  "szozatSolver.usableWords": "Possible words",
+  "szozatSolver.findUsableWords": "Find possible words",
+  "szozatSolver.presentLetters": "Letters present",
+  "szozatSolver.notPresentLetters": "Letters not present",
+  "szozatSolver.regex": "Regex",
+  "szozatSolver.presentLettersAdd": "Add to letters present",
+  "szozatSolver.notPresentLettersAdd": "Add to letters not present",
+  "szozatSolver.languageSelector": "Language (for the wordlist)"
 }
