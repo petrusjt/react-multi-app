@@ -1,6 +1,8 @@
 {
-  "szozatSolver.title": "Szózat solver",
-  "szozatSolver.description": "Web application that helps you solve today's Szózat or wordle.",
+  "mainPage.title": "Main page",
+
+  "szozatSolver.title": "Szózat/Wordle solver",
+  "szozatSolver.description": "Web application that helps you solve today's Szózat or Wordle.",
 
   "szozatSolver.usableWords": "Possible words",
   "szozatSolver.findUsableWords": "Find possible words",

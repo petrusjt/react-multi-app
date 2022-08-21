@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {PossibleWordsLister} from "./PossibleWordsLister";
 import {LettersLister} from "./LettersLister";
@@ -11,6 +11,10 @@ export function SzozatSolverMain() {
     const [notPresentLetters, setNotPresentLetters] = useState([])
     const [regex, setRegex] = useState([".", ".", ".", ".", "."])
     const [lang, setLang] = useState("hu")
+
+    useEffect(() => {
+        document.title = t("szozatSolver.title")
+    })
 
     return (
         <div className="h-screen w-screen bg-slate-800 flex flex-col justify-center overflow-hidden p-2">

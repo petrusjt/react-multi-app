@@ -2,11 +2,15 @@ import './App.css';
 import { Outlet, useLocation } from "react-router-dom";
 import { ComponentRouteLink } from "./util/ComponentRouteLink";
 import { useTranslation } from "react-i18next";
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function App() {
     const location = useLocation()
     const { t, i18n } = useTranslation()
+
+    useEffect(() => {
+        document.title = t("mainPage.title")
+    })
 
     return (
         <div className="h-screen w-screen bg-slate-800 flex justify-center overflow-hidden">

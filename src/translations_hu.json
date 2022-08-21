@@ -1,5 +1,7 @@
 {
-  "szozatSolver.title": "Szózat solver",
+  "mainPage.title": "Főoldal",
+
+  "szozatSolver.title": "Szózat/Wordle solver",
   "szozatSolver.description": "Egy webalkalmazás, amely segít megfejteni a napi Szózatot és/vagy Wordle-t.",
 
   "szozatSolver.usableWords": "Lehetséges szavak",
