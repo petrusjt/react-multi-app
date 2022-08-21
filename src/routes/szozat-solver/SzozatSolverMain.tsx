@@ -17,7 +17,7 @@ export function SzozatSolverMain() {
     })
 
     return (
-        <div className="h-screen w-screen bg-slate-800 flex flex-col justify-center overflow-hidden p-2">
+        <div className="min-h-screen w-screen bg-slate-800 flex flex-col justify-center overflow-hidden p-2">
             <div className="w-full flex flex-row flex-wrap justify-between">
                 <LettersLister letters={presentLetters}
                                setLetters={setPresentLetters}

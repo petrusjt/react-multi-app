@@ -16,7 +16,6 @@ export function getRecommendedWords(presentLetters: Array<string>,
                                     regex: Array<string>,
                                     lang: string): Array<string> {
     const compiledRegex: RegExp = new RegExp(convertInputList(regex).join(""))
-    console.log(compiledRegex)
     return getFullWordlist(lang)
         .filter(item => compiledRegex.test(item))
         .filter(item => convertInputList(presentLetters).every(letter => item.includes(letter)))
