@@ -17,8 +17,8 @@ export function SzozatSolverMain() {
     })
 
     return (
-        <div className="min-h-screen w-screen bg-slate-800 flex flex-col justify-center overflow-hidden p-2">
-            <div className="w-full flex flex-row flex-wrap justify-between">
+        <div className="min-h-screen max-h-full w-screen max-w-full bg-slate-800 flex flex-col justify-center overflow-x-hidden p-2">
+            <div className="w-full max-h-[50%] flex flex-row flex-wrap justify-between">
                 <LettersLister letters={presentLetters}
                                setLetters={setPresentLetters}
                                isNotPresentLister={false}
@@ -36,7 +36,7 @@ export function SzozatSolverMain() {
                                  notPresentLetters={notPresentLetters}
                                  regex={regex}
                                  lang={lang}
-                                 className="szozatBreak:min-h-96 max-h-1/2 overflow-y-hidden bg-slate-600"/>
+                                 className="szozatBreak:min-h-96 max-h-[50%] overflow-y-hidden bg-slate-600"/>
         </div>
     )
 }
